@@ -1,5 +1,0 @@
-* [Home](/home.md)
-* [Getting Started]()
-  * [Installation]()
-  * [Install Helium API]()
-* [Configuration]() 
