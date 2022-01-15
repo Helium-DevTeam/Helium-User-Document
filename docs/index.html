@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'Helium Document',
+      repo: 'https://github.com/Helium-DevTeam/Helium',
+      loadNavbar: true,
+      loadSidebar: true,
+      coverpage: ['/', '/zh-cn/'],
+      notFoundPage: {
+        '/': '/_404.md',
+        '/zh-cn/': 'zh-cn/_404.md'
+      },
+      logo: '/_media/icon.png',
+      nameLink: {
+        '/zh-cn/': '/zh-cn/',
+        '/en-us/': '/',
+        '/': '/'
+      }
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
