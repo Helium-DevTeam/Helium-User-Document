@@ -9,6 +9,6 @@
 
 [Github](https://github.com/Helium-DevTeam/Helium)
 [Gitee](https://gitee.com/Helium-DevTeam/Helium)
-[Document](#docsify)
+[Document](#welcome-to-the-official-helium-user-documentation)
 
 ![](_media/heliumbg.png)
