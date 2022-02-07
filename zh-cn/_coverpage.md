@@ -9,6 +9,6 @@
 
 [Github](https://github.com/Helium-DevTeam/Helium)
 [Gitee](https://gitee.com/Helium-DevTeam/Helium)
-[文档](#/zh-cn/README)
+[文档](#helium-pre-alpha-061-用户文档)
 
 ![](_media/heliumbg.png)

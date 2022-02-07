@@ -1,0 +1,115 @@
+#helium
+  command		//command
+    attribute
+      QuotableString : <command>
+        alias
+          QuotableString : <new_alias>
+        autocomplete
+          Bool : <new>
+        callback
+          Bool : <new>
+        command
+          String : <new_command>
+        description
+          QuotableString : <new_description>
+        executable
+          Bool : <new>
+        hint
+          Bool : <new>
+        list
+          Bool : <new>
+        permission
+          String : <new_permission>
+    bind 
+      create
+        QuotableString : <binded_command>
+        QuotableString : <command_to_bind>
+      detail
+        QuotableString : <binded_command>
+      delete
+        QuotableString : <binded_command>
+      list
+    detail
+      GreedyString : <command>
+    list
+      GreedyString : [command_subtree_parent]
+  server		//minecraft server
+    activate
+      all
+      String : <server_name>
+        add
+        remove
+    detail
+      String : <server_name>
+    list
+    pause
+      all
+      String : <server_name>
+    resume
+      all
+      String : <server_name>
+    start
+      all
+      String : <server_name>
+    stop
+      all
+      String : <server_name>
+  show		//gnu
+    condition
+    warranty
+  event		//helium event
+    block
+      extension
+        all
+        Int : <eventid>
+      global
+        all
+        Int : <eventid>
+      server
+        all
+        Int : <eventid>
+    create
+      Int : <eventid>
+    detail
+      Int : <eventid>
+    list
+    trace
+      Int : <eventid>
+  extension	//helium extension
+    detail
+      String : <extension_name>
+    list
+    load
+      String : <extension_name>
+    lock
+      String : <extension_name>
+    reloadconfig	//remap
+      all
+      String : <extension_name>
+    reloadext		//remap
+      all
+      String : <extension_name>
+    unload
+      String : <extension_name>
+    unlock
+      String : <extension_name>
+  exit		//finalize and exit helium
+  reload		//reload sth
+    all
+    config
+    extconfig
+      all
+      String : <extension_name>
+    extension
+      all
+      String : <extension_name>
+  status		//helium status
+  update		//check update
+  version		//version & copyright & license info
+#help			//single "#Help" will act as #Helium command list
+  documentation	//show our documentation website
+  manual		//show manual for specified command
+    GreedyString : <command>
+
+future commands:
+script
